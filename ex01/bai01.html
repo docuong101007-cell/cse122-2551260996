@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 01: Trang thơ "Bốn mùa"</title>
+    <style>
+        /* Căn giữa toàn bộ trang web và tạo màu nền nhẹ */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+
+        /* Khung bao bài thơ (Rộng 640px, nền vàng nhạt, viền xám) */
+        .khung-tho {
+            width: 640px;
+            background-color: #FFFDE7;
+            border: 1px solid #9E9E9E;
+            padding: 24px;
+            text-align: center;
+            box-sizing: border-box;
+        }
+
+        /* Tiêu đề bài thơ: Chữ đỏ đậm, nền hồng phấn, in đậm */
+        h1 {
+            color: #D40000;
+            background-color: #FFD9E6;
+            padding: 6px 0;
+            margin: 0 0 20px 0;
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        /* Định dạng chung cho các khổ thơ: In nghiêng, cách dòng 1.7 */
+        p {
+            font-style: italic;
+            line-height: 1.7;
+            margin: 15px 0;
+            font-size: 18px;
+        }
+
+        /* Khổ 1 & Khổ 3: Chữ màu xanh dương */
+        .khung-xanh {
+            color: #0033CC;
+        }
+
+        /* Khổ 2: Chữ màu đỏ */
+        .khung-do {
+            color: #D40000;
+        }
+
+        /* Đường kẻ ngang phân cách giữa các khổ thơ */
+        hr {
+            width: 55%;
+            border: none;
+            border-top: 1px solid #0033CC;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+
+    <article class="khung-tho">
+        <h1>BỐN MÙA</h1>
+
+        <!-- Khổ thơ 1 (Xanh dương) -->
+        <p class="khung-xanh">
+            Xuân về hoa nở khắp trời<br>
+            Hạ sang nắng cháy rạng ngời phố quen<br>
+            Thu về lá rụng bên thềm
+        </p>
+
+        <hr>
+
+        <!-- Khổ thơ 2 (Đỏ) -->
+        <p class="khung-do">
+            Đông sang gió lạnh bên em đợi chờ<br>
+            Bốn mùa là bốn giấc mơ<br>
+            Thời gian đi mãi ta chờ đợi ai
+        </p>
+
+        <hr>
+
+        <!-- Khổ thơ 3 (Xanh dương) -->
+        <p class="khung-xanh">
+            Một năm rồi lại một năm<br>
+            Vẫn còn câu hát thì thầm quê hương<br>
+            Chờ xuân nắng mới soi đường
+        </p>
+    </article>
+
+</body>
+</html>
