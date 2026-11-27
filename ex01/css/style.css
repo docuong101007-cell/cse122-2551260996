@@ -1,0 +1,60 @@
+:root {
+  --frame-bg: #FFFDE7;
+  --frame-border: #9E9E9E;
+  --red: #D40000;
+  --pink: #FFD9E6;
+  --blue: #0033CC;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 16px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Times New Roman", serif;
+}
+
+.khung-tho {
+  width: 640px;
+  max-width: 100%;
+  padding: 24px;
+  background-color: var(--frame-bg);
+  border: 1px solid var(--frame-border);
+  text-align: center;
+}
+
+h1 {
+  margin: 0 0 20px;
+  padding: 6px 0;
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--red);
+  background-color: var(--pink);
+}
+
+.kho {
+  margin: 0;
+  font-style: italic;
+  line-height: 1.7;
+}
+
+.xanh {
+  color: var(--blue);
+}
+
+.do {
+  color: var(--red);
+}
+
+hr {
+  width: 55%;
+  margin: 16px auto;
+  border: none;
+  border-top: 1px solid var(--blue);
+}
